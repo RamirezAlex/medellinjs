@@ -56,54 +56,45 @@
 </template>
 
 <script>
-import { faJs } from '@fortawesome/free-brands-svg-icons'
+    import reactLaConfLogo from '@/assets/img/communityParners/logo-reactlaconf.svg'
+    import cssConfCoLogo from '@/assets/img/communityParners/logo-cssconfco.svg'
+    import ngConfCoLogo from '@/assets/img/communityParners/logo-ngConfCo.svg'
+    import nodeConfCoLogo from '@/assets/img/communityParners/logo-nodeConfCo.jpg'
 
-import reactLaConfLogo from '@/assets/img/communityParners/logo-reactlaconf.svg'
-import cssConfCoLogo from '@/assets/img/communityParners/logo-cssconfco.svg'
-import ngConfCoLogo from '@/assets/img/communityParners/logo-ngConfCo.svg'
-import nodeConfCoLogo from '@/assets/img/communityParners/logo-nodeConfCo.jpg'
-
-export default {
-  data() {
-    return {
-      communityParners: {
-        reactLaConf: {
-          name: 'ReactLaConf',
-          website: 'https://reactlaconf.co/',
-          twitter: 'reactlaconf',
-          instagram: 'reactlaconf/',
-          logo: reactLaConfLogo
-        },
-        cssconf: {
-          name: 'CssConfCo',
-          website: 'https://cssconf.co/',
-          twitter: 'cssconfco',
-          instagram: 'cssconfco/',
-          logo: cssConfCoLogo
-        },
-        NgColombia: {
-          name: 'NgColombia',
-          website: 'https://ngconf.co/',
-          twitter: 'NgConfCo',
-          instagram: 'https://www.instagram.com/explore/tags/ngconfcolombia/',
-          logo: ngConfCoLogo
-        },
-        nodeConfCo: {
-          name: 'NodeConfCo',
-          website: 'https://colombia.nodeconf.com/',
-          twitter: 'NodeConfCo',
-          instagram: 'nodeconf_co/',
-          logo: nodeConfCoLogo
+    export default {
+      data () {
+        return {
+          communityParners: {
+            reactLaConf: {
+                name: 'ReactLaConf',
+                website: 'https://reactlaconf.co/',
+                twitter: 'reactlaconf',
+                instagram: 'reactlaconf/',
+                logo: reactLaConfLogo
+            },
+            cssconf: {
+                name: 'CssConfCo',
+                website: 'https://cssconf.co/',
+                twitter: 'cssconfco',
+                instagram: 'cssconfco/',
+                logo: cssConfCoLogo
+            },
+            NgColombia: {
+                name: 'NgColombia',
+                website: 'https://ngconf.co/',
+                twitter: 'NgConfCo',
+                instagram: 'https://www.instagram.com/explore/tags/ngconfcolombia/',
+                logo: ngConfCoLogo
+            },
+            nodeConfCo: {
+                name: 'NodeConfCo',
+                website: 'https://colombia.nodeconf.com/',
+                twitter: 'NodeConfCo',
+                instagram: 'nodeconf_co/',
+                logo: nodeConfCoLogo
+            }
+          }
         }
       }
     }
-  },
-  computed: {
-    fab() {
-      return {
-        faJs
-      }
-    }
-  }
-}
 </script>
