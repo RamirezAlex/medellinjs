@@ -65,7 +65,7 @@ export default {
     AppCommuniyParners,
     AppContact,
     AppSponsors,
-    AppFooter
-  }
+    AppFooter,
+  },
 }
 </script>

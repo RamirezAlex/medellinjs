@@ -65,16 +65,16 @@ export default {
   props: {
     heroes: {
       type: Array,
-      required: true
-    }
+      required: true,
+    },
   },
   computed: {
     fab() {
       return {
-        faJs
+        faJs,
       }
-    }
-  }
+    },
+  },
 }
 </script>
 

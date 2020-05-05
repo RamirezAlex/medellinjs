@@ -30,9 +30,8 @@ import AppFooter from '~/components/AppFooter.vue'
 export default {
   components: {
     AppNavbarPage,
-    AppPreLoader,
     AppContact,
-    AppFooter
-  }
+    AppFooter,
+  },
 }
 </script>
